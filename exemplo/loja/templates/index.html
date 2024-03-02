@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block page_content %}
+<h1>Aprendendo django</h1>
+
+{% for project in projects %}
+{{project.name }}
+{% endfor %}
+
+{% endblock %}
